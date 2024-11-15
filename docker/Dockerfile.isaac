@@ -4,4 +4,5 @@ FROM ${BASE_IMAGE}
 RUN apt-get update && apt-get install -y \
     ros-humble-isaac-ros-h264-decoder \
     ros-humble-isaac-ros-h264-encoder \
-    ros-humble-isaac-ros-visual-slam
+    ros-humble-isaac-ros-visual-slam \
+    ros-humble-realsense2-camera
